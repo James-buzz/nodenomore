@@ -26,12 +26,12 @@ Simply navigate to the directory where your `node_modules` are stored and type:
 nodenomore
 ```
 
-<br>
-
 ## Prerequisites
 
 - Ensure you have Node.js installed on your computer. You can download it from Node.js official website.
 - It’s advisable to have npm (Node package manager) updated to the latest version.
+
+<br>
 
 ## Safety Measures
 
