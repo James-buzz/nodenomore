@@ -4,7 +4,6 @@ Nodenomore is a command-line interface (CLI) tool that removes node_modules dire
 
 <br>
 <p align="center"><img src=".readme/preview.gif"/></p>
-<br>
 
 ## Why should you use this?
 
@@ -18,8 +17,6 @@ Nodenomore is a command-line interface (CLI) tool that removes node_modules dire
 ```
 npm install -g nodenomore
 ```
-
-<br>
 
 ## Usage
 
@@ -36,25 +33,17 @@ nodenomore
 - Ensure you have Node.js installed on your computer. You can download it from Node.js official website.
 - It’s advisable to have npm (Node package manager) updated to the latest version.
 
-<br>
-
 ## Safety Measures
 
 Nodenomore has been designed to avoid accidental deletions. It double-checks with you before removing any `node_modules` directories.
-
-<br>
 
 ## Contributions
 
 Contributions to Nodenomore are welcomed! Fork the repository on GitHub, make your changes, and submit a pull request.
 
-<br>
-
 ## Support
 
 If you encounter any issues or have questions, please open an issue on the GitHub issues page.
-
-<br>
 
 ## License
 
