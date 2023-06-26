@@ -1,7 +1,7 @@
 {
   "name": "nodenomore",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nodenomore is a command-line interface (CLI) tool that removes node_modules directories from your computer",
   "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",

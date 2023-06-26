@@ -3,7 +3,7 @@
 Nodenomore is a command-line interface (CLI) tool that removes node_modules directories from your computer, saving you disk space and keeping your workspace tidy.
 
 <br>
-<p align="center"><img src=".readme/preview.gif"/></p>
+<p align="center"><img src="https://github.com/James-buzz/nodenomore/blob/main/.readme/preview.gif?raw=true"/></p>
 
 ## Why should you use this?
 
