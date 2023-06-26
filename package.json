@@ -1,21 +1,18 @@
 {
   "name": "nodenomore",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Nodenomore is a command-line interface (CLI) tool that removes node_modules directories from your computer",
   "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
-    "clean": "rimraf dist",
-    "prebuild": "npm run clean",
     "build": "tsc",
     "start": "npm run build && node dist/index.js",
     "test": "jest",
     "test-coverage": "jest --coverage",
-    "prepare": "husky install",
-    "postinstall": "husky install",
     "prettier": "prettier --check ./src/*",
     "format": "prettier --write ./src/*",
-    "lint": "eslint ./src/**/*.ts"
+    "lint": "eslint ./src/**/*.ts",
+    "npm-publish": "npm run build && npm publish"
   },
   "bin": {
     "nodenomore": "./dist/index.js"
@@ -39,11 +36,11 @@
     "eslint": "^8.43.0",
     "husky": "^8.0.3",
     "jest": "^29.5.0",
+    "mock-fs": "^5.2.0",
     "prettier": "^2.8.8",
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.3",
-    "mock-fs": "^5.2.0"
+    "typescript": "^5.1.3"
   },
   "dependencies": {
     "colors": "^1.4.0",
