@@ -1,0 +1,14 @@
+node_modules
+
+*.txt
+
+package-lock.json
+
+*.log
+*.gz
+
+.nyc_output
+coverage
+
+# Benchmarking
+benchmarks/graphs
